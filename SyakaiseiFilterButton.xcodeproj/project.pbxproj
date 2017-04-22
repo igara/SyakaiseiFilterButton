@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0572F3A1EAB4EB600CC001F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0572F391EAB4EB600CC001F /* AppDelegate.swift */; };
+		D0572F3E1EAB4EB700CC001F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0572F3D1EAB4EB700CC001F /* Document.swift */; };
+		D0572F411EAB4EB700CC001F /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0572F3F1EAB4EB700CC001F /* Document.xcdatamodeld */; };
+		D0572F431EAB4EB700CC001F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0572F421EAB4EB700CC001F /* Assets.xcassets */; };
+		D0572F461EAB4EB700CC001F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0572F441EAB4EB700CC001F /* Main.storyboard */; };
+		D0572F511EAB4EB700CC001F /* SyakaiseiFilterButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0572F501EAB4EB700CC001F /* SyakaiseiFilterButtonTests.swift */; };
+		D0572F5C1EAB4EB700CC001F /* SyakaiseiFilterButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0572F5B1EAB4EB700CC001F /* SyakaiseiFilterButtonUITests.swift */; };
+		D0572F711EAB534E00CC001F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0572F701EAB534E00CC001F /* ViewController.swift */; };
+		D0572F731EAB535500CC001F /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0572F721EAB535500CC001F /* WindowController.swift */; };
+		D0572F761EAB54BB00CC001F /* line-girl1-hee1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0572F751EAB54BB00CC001F /* line-girl1-hee1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0572F4D1EAB4EB700CC001F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0572F2E1EAB4EB600CC001F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0572F351EAB4EB600CC001F;
+			remoteInfo = SyakaiseiFilterButton;
+		};
+		D0572F581EAB4EB700CC001F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0572F2E1EAB4EB600CC001F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0572F351EAB4EB600CC001F;
+			remoteInfo = SyakaiseiFilterButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0572F361EAB4EB600CC001F /* SyakaiseiFilterButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyakaiseiFilterButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0572F391EAB4EB600CC001F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0572F3D1EAB4EB700CC001F /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D0572F401EAB4EB700CC001F /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		D0572F421EAB4EB700CC001F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0572F451EAB4EB700CC001F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0572F471EAB4EB700CC001F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0572F4C1EAB4EB700CC001F /* SyakaiseiFilterButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyakaiseiFilterButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0572F501EAB4EB700CC001F /* SyakaiseiFilterButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyakaiseiFilterButtonTests.swift; sourceTree = "<group>"; };
+		D0572F521EAB4EB700CC001F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0572F571EAB4EB700CC001F /* SyakaiseiFilterButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyakaiseiFilterButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0572F5B1EAB4EB700CC001F /* SyakaiseiFilterButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyakaiseiFilterButtonUITests.swift; sourceTree = "<group>"; };
+		D0572F5D1EAB4EB700CC001F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0572F701EAB534E00CC001F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Class/Controller/ViewController.swift; sourceTree = "<group>"; };
+		D0572F721EAB535500CC001F /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindowController.swift; path = Class/Controller/WindowController.swift; sourceTree = "<group>"; };
+		D0572F751EAB54BB00CC001F /* line-girl1-hee1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "line-girl1-hee1.mp3"; path = "Sound/line-girl1-hee1.mp3"; sourceTree = "<group>"; };
+		D0572F781EAB61E000CC001F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0572F331EAB4EB600CC001F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0572F491EAB4EB700CC001F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0572F541EAB4EB700CC001F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0572F2D1EAB4EB600CC001F = {
+			isa = PBXGroup;
+			children = (
+				D0572F381EAB4EB600CC001F /* SyakaiseiFilterButton */,
+				D0572F4F1EAB4EB700CC001F /* SyakaiseiFilterButtonTests */,
+				D0572F5A1EAB4EB700CC001F /* SyakaiseiFilterButtonUITests */,
+				D0572F371EAB4EB600CC001F /* Products */,
+				D0572F771EAB61DF00CC001F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0572F371EAB4EB600CC001F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0572F361EAB4EB600CC001F /* SyakaiseiFilterButton.app */,
+				D0572F4C1EAB4EB700CC001F /* SyakaiseiFilterButtonTests.xctest */,
+				D0572F571EAB4EB700CC001F /* SyakaiseiFilterButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0572F381EAB4EB600CC001F /* SyakaiseiFilterButton */ = {
+			isa = PBXGroup;
+			children = (
+				D0572F6E1EAB533500CC001F /* Class */,
+				D0572F391EAB4EB600CC001F /* AppDelegate.swift */,
+				D0572F3D1EAB4EB700CC001F /* Document.swift */,
+				D0572F741EAB54AE00CC001F /* Sound */,
+				D0572F421EAB4EB700CC001F /* Assets.xcassets */,
+				D0572F441EAB4EB700CC001F /* Main.storyboard */,
+				D0572F471EAB4EB700CC001F /* Info.plist */,
+				D0572F3F1EAB4EB700CC001F /* Document.xcdatamodeld */,
+			);
+			path = SyakaiseiFilterButton;
+			sourceTree = "<group>";
+		};
+		D0572F4F1EAB4EB700CC001F /* SyakaiseiFilterButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0572F501EAB4EB700CC001F /* SyakaiseiFilterButtonTests.swift */,
+				D0572F521EAB4EB700CC001F /* Info.plist */,
+			);
+			path = SyakaiseiFilterButtonTests;
+			sourceTree = "<group>";
+		};
+		D0572F5A1EAB4EB700CC001F /* SyakaiseiFilterButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0572F5B1EAB4EB700CC001F /* SyakaiseiFilterButtonUITests.swift */,
+				D0572F5D1EAB4EB700CC001F /* Info.plist */,
+			);
+			path = SyakaiseiFilterButtonUITests;
+			sourceTree = "<group>";
+		};
+		D0572F6E1EAB533500CC001F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D0572F6F1EAB534200CC001F /* Controller */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		D0572F6F1EAB534200CC001F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0572F701EAB534E00CC001F /* ViewController.swift */,
+				D0572F721EAB535500CC001F /* WindowController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D0572F741EAB54AE00CC001F /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				D0572F751EAB54BB00CC001F /* line-girl1-hee1.mp3 */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		D0572F771EAB61DF00CC001F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0572F781EAB61E000CC001F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0572F351EAB4EB600CC001F /* SyakaiseiFilterButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0572F601EAB4EB700CC001F /* Build configuration list for PBXNativeTarget "SyakaiseiFilterButton" */;
+			buildPhases = (
+				D0572F321EAB4EB600CC001F /* Sources */,
+				D0572F331EAB4EB600CC001F /* Frameworks */,
+				D0572F341EAB4EB600CC001F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyakaiseiFilterButton;
+			productName = SyakaiseiFilterButton;
+			productReference = D0572F361EAB4EB600CC001F /* SyakaiseiFilterButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0572F4B1EAB4EB700CC001F /* SyakaiseiFilterButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0572F631EAB4EB700CC001F /* Build configuration list for PBXNativeTarget "SyakaiseiFilterButtonTests" */;
+			buildPhases = (
+				D0572F481EAB4EB700CC001F /* Sources */,
+				D0572F491EAB4EB700CC001F /* Frameworks */,
+				D0572F4A1EAB4EB700CC001F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0572F4E1EAB4EB700CC001F /* PBXTargetDependency */,
+			);
+			name = SyakaiseiFilterButtonTests;
+			productName = SyakaiseiFilterButtonTests;
+			productReference = D0572F4C1EAB4EB700CC001F /* SyakaiseiFilterButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0572F561EAB4EB700CC001F /* SyakaiseiFilterButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0572F661EAB4EB700CC001F /* Build configuration list for PBXNativeTarget "SyakaiseiFilterButtonUITests" */;
+			buildPhases = (
+				D0572F531EAB4EB700CC001F /* Sources */,
+				D0572F541EAB4EB700CC001F /* Frameworks */,
+				D0572F551EAB4EB700CC001F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0572F591EAB4EB700CC001F /* PBXTargetDependency */,
+			);
+			name = SyakaiseiFilterButtonUITests;
+			productName = SyakaiseiFilterButtonUITests;
+			productReference = D0572F571EAB4EB700CC001F /* SyakaiseiFilterButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0572F2E1EAB4EB600CC001F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "五十嵐翔";
+				TargetAttributes = {
+					D0572F351EAB4EB600CC001F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D0572F4B1EAB4EB700CC001F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0572F351EAB4EB600CC001F;
+					};
+					D0572F561EAB4EB700CC001F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0572F351EAB4EB600CC001F;
+					};
+				};
+			};
+			buildConfigurationList = D0572F311EAB4EB600CC001F /* Build configuration list for PBXProject "SyakaiseiFilterButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0572F2D1EAB4EB600CC001F;
+			productRefGroup = D0572F371EAB4EB600CC001F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0572F351EAB4EB600CC001F /* SyakaiseiFilterButton */,
+				D0572F4B1EAB4EB700CC001F /* SyakaiseiFilterButtonTests */,
+				D0572F561EAB4EB700CC001F /* SyakaiseiFilterButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0572F341EAB4EB600CC001F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0572F431EAB4EB700CC001F /* Assets.xcassets in Resources */,
+				D0572F761EAB54BB00CC001F /* line-girl1-hee1.mp3 in Resources */,
+				D0572F461EAB4EB700CC001F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0572F4A1EAB4EB700CC001F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0572F551EAB4EB700CC001F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0572F321EAB4EB600CC001F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0572F411EAB4EB700CC001F /* Document.xcdatamodeld in Sources */,
+				D0572F731EAB535500CC001F /* WindowController.swift in Sources */,
+				D0572F3A1EAB4EB600CC001F /* AppDelegate.swift in Sources */,
+				D0572F711EAB534E00CC001F /* ViewController.swift in Sources */,
+				D0572F3E1EAB4EB700CC001F /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0572F481EAB4EB700CC001F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0572F511EAB4EB700CC001F /* SyakaiseiFilterButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0572F531EAB4EB700CC001F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0572F5C1EAB4EB700CC001F /* SyakaiseiFilterButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0572F4E1EAB4EB700CC001F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0572F351EAB4EB600CC001F /* SyakaiseiFilterButton */;
+			targetProxy = D0572F4D1EAB4EB700CC001F /* PBXContainerItemProxy */;
+		};
+		D0572F591EAB4EB700CC001F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0572F351EAB4EB600CC001F /* SyakaiseiFilterButton */;
+			targetProxy = D0572F581EAB4EB700CC001F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0572F441EAB4EB700CC001F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0572F451EAB4EB700CC001F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0572F5E1EAB4EB700CC001F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0572F5F1EAB4EB700CC001F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D0572F611EAB4EB700CC001F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyakaiseiFilterButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.syonet.SyakaiseiFilterButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0572F621EAB4EB700CC001F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyakaiseiFilterButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.syonet.SyakaiseiFilterButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D0572F641EAB4EB700CC001F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyakaiseiFilterButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.syonet.SyakaiseiFilterButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyakaiseiFilterButton.app/Contents/MacOS/SyakaiseiFilterButton";
+			};
+			name = Debug;
+		};
+		D0572F651EAB4EB700CC001F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyakaiseiFilterButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.syonet.SyakaiseiFilterButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyakaiseiFilterButton.app/Contents/MacOS/SyakaiseiFilterButton";
+			};
+			name = Release;
+		};
+		D0572F671EAB4EB700CC001F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyakaiseiFilterButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.syonet.SyakaiseiFilterButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SyakaiseiFilterButton;
+			};
+			name = Debug;
+		};
+		D0572F681EAB4EB700CC001F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyakaiseiFilterButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.syonet.SyakaiseiFilterButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SyakaiseiFilterButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0572F311EAB4EB600CC001F /* Build configuration list for PBXProject "SyakaiseiFilterButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0572F5E1EAB4EB700CC001F /* Debug */,
+				D0572F5F1EAB4EB700CC001F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0572F601EAB4EB700CC001F /* Build configuration list for PBXNativeTarget "SyakaiseiFilterButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0572F611EAB4EB700CC001F /* Debug */,
+				D0572F621EAB4EB700CC001F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0572F631EAB4EB700CC001F /* Build configuration list for PBXNativeTarget "SyakaiseiFilterButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0572F641EAB4EB700CC001F /* Debug */,
+				D0572F651EAB4EB700CC001F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0572F661EAB4EB700CC001F /* Build configuration list for PBXNativeTarget "SyakaiseiFilterButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0572F671EAB4EB700CC001F /* Debug */,
+				D0572F681EAB4EB700CC001F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0572F3F1EAB4EB700CC001F /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0572F401EAB4EB700CC001F /* Document.xcdatamodel */,
+			);
+			currentVersion = D0572F401EAB4EB700CC001F /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0572F2E1EAB4EB600CC001F /* Project object */;
+}
